@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+}
+
+header {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+}
+
+table {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-collapse: collapse;
+}
+
+th {
+    width: 20%;   
+    height: 20%; 
+    background: rgb(186, 186, 186);
+}
+
+button {
+    padding: 10px 15px;
+    background: rgb(186, 186, 186);
+    border: none;
+    border-radius: 5px;
+    transition: all .5s ease;
+}
+
+button:hover {
+    background: white;
+}
+
+.reset-div {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+}
+
+.border {
+    border: 2px solid black;
+}
+
+.border-right {
+    border-right: 2px solid black;
+}
+
+.border-top-bottom {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.score1 {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-10%, -10%);
+}
+
+.score2 {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    transform: translate(10%, -10%);
+}
